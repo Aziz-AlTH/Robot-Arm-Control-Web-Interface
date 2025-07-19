@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Robot Arm Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>🤖 Smart Robot Arm Control Panel</h2>
+    <div id="sliders">
+        <div><label>Motor 1:</label> <input type="range" min="0" max="180" value="90" id="m1"><span id="v1">90</span></div>
+        <div><label>Motor 2:</label> <input type="range" min="0" max="180" value="90" id="m2"><span id="v2">90</span></div>
+        <div><label>Motor 3:</label> <input type="range" min="0" max="180" value="90" id="m3"><span id="v3">90</span></div>
+        <div><label>Motor 4:</label> <input type="range" min="0" max="180" value="90" id="m4"><span id="v4">90</span></div>
+        <div><label>Motor 5:</label> <input type="range" min="0" max="180" value="90" id="m5"><span id="v5">90</span></div>
+        <div><label>Motor 6:</label> <input type="range" min="0" max="180" value="90" id="m6"><span id="v6">90</span></div>
+    </div>
+
+    <div style="text-align:center;">
+        <button onclick="reset()">🔄 Reset</button>
+        <button onclick="savePose()">💾 Save Pose</button>
+        <button onclick="run()">▶️ Run</button>
+    </div>
+
+    <div id="table"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
