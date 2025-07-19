@@ -80,8 +80,10 @@ Create the database in phpMyAdmin.
 Visit the project in your browser:
 👉 http://localhost/robot_arm_control/index.html
 
+
+
 🧑‍💻 Developed By
-Abdulaziz — Computer Science Student
+Abdulaziz Al-Thabeti — Computer Science Student
 Custom-built with ❤️ using VS Code and XAMPP.
 
 
